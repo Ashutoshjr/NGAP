@@ -20,21 +20,16 @@
         <div class="innerContainer">
 
             <div class="row">
-                <div id="myWizard" class="formArea LRmargin">
+                <div id="myWizard">
                     @using (Html.BeginForm())
                     {
                          @Html.AntiForgeryToken()
                         
-                        <div id="divMessage" class=" text-center col-md-4 col-sm-4 col-md-offset-4 alert alert-success">
+                        @*<div id="divMessage" class=" text-center col-md-4 col-sm-4 col-md-offset-4 alert alert-success">
                             @Html.ValidationSummary()
-                        </div>
+                        </div>*@
                         
-                        
-                        
-                        
-                        
-                        
-                         <div class="logo col-sm-12 text-center col-md-12 "> <img alt=""  src="~/Images/dotnetsai.png" /></div>
+                         @*<div class="logo col-sm-12 text-center col-md-12 "> <img alt=""  src="~/Images/gym-logo.jpg" style="height:170px; width:160px" /></div>*@
                         <div class="col-md-4 col-md-offset-4 col-xs-12">
                             <div class="loginPage panel panel-info">
                            <div class="form-group">
@@ -50,18 +45,15 @@
 
                                 </div>
                                 <div class="form-group">
-                                     <input id="BtnLogin" type="submit" class="btn btn-success btn-pressure" name="BtnLogin" value="Login" />
-                                            <input id="BtnReset" type="reset" class="btn btn-info btn-pressure" name="BtnReset" value="Reset" />
+                                    <input id="BtnLogin" type="submit" class="btn btn-success btn-pressure" name="BtnLogin" value="Login" />&nbsp;&nbsp;
+                                    <input id="BtnReset" type="reset" class="btn btn-info btn-pressure" name="BtnReset" value="Reset" />
 
                                 </div>
 
                                 
                             </div>
                         </div>
-                        
-                        
-                        
-                        
+     
                         
                     }
 

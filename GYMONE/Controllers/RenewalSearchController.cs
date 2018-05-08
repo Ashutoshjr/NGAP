@@ -65,9 +65,6 @@ namespace GYMONE.Controllers
                 else
                 {
 
-
-
-
                     DataSet ds = objIRecepit.Get_RenewalReport(obj);
                     ds.Tables[0].TableName = "RecepitDataset";
 

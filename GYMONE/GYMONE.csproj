@@ -312,10 +312,12 @@
     <Content Include="Global.asax" />
     <Content Include="Grid.mvc.readme" />
     <Content Include="Icon.png" />
+    <Content Include="Images\bg.jpg" />
     <Content Include="Images\bg.png" />
     <Content Include="Images\dotnetsai.png" />
     <Content Include="Images\datepick.png" />
     <Content Include="Images\dotnetsaifavicon.ico" />
+    <Content Include="Images\gym-logo.jpg" />
     <Content Include="JsValidation\RegisterMember.js" />
     <Content Include="Scripts\gridmvc.js" />
     <Content Include="Scripts\gridmvc.lang.ru.js" />
