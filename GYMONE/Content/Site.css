@@ -981,3 +981,21 @@ tr.pager td
             filter: none;
         }
 }
+
+
+
+/*------------main CSS--------------------------*/
+
+.mainsection {
+    margin-top: 21%;
+}
+.loginPage.panel.panel-info {
+    background: rgba(0,0,0,0.7);
+}
+.textlabel{
+    color:white;
+}
+
+.btncolor{
+    color:rgba(0,0,0,0.7);
+}
