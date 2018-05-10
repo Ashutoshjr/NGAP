@@ -107,7 +107,7 @@ h5, h6
 
 body
 {
-    /*background:url("../images/bg.png") fixed top center no-repeat;*/
+  
     background: url("../Images/bg.jpg") fixed top center no-repeat;
     background-size:cover;
 }
@@ -991,11 +991,17 @@ tr.pager td
 }
 .loginPage.panel.panel-info {
     background: rgba(0,0,0,0.7);
+    padding: 35px
 }
 .textlabel{
     color:white;
 }
 
-.btncolor{
-    color:rgba(0,0,0,0.7);
+.btncolor {
+    background: #1c2226;
+    color: white;
+    font-weight: 500;
+    border: none;
+    padding: 12px;
+    border-radius: 10px;
 }
